@@ -10,7 +10,7 @@ namespace Store.Web.Controllers
     {
         private readonly IBookRepository bookRepository;
 
-        public SearchController(IBookRepository bookRepository)
+        public SearchController(IBookRepository bookRepository) //Внедрение через конструктор.
         {
             this.bookRepository = bookRepository;
         }
